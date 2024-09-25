@@ -1,0 +1,36 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: #353837;
+  color: #fafafa;
+}
+
+h2 {
+  color: rgb(230, 175, 175);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+}
+h3 {
+  color: rgb(143, 121, 121);
+}
+
+table {
+  color: rgb(143, 121, 121);
+}
+
+#alerta {
+  color: red;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px; /* Espacio entre el título y la imagen */
+}
+
+img {
+  max-width: 100%; /* Para que la imagen sea responsiva */
+  height: auto;
+}
