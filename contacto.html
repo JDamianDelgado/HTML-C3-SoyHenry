@@ -4,9 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formulario de contacto</title>
+    <link rel="stylesheet" href="style-contact.css" />
   </head>
-  <body style="background-color: beige; text-align: center">
+  <body>
     <h1>Formulario de contacto</h1>
+    <img
+      src="https://moodle.soyhenry.com/pluginfile.php/1/core_admin/logocompact/300x300/1695326225/logo2.png"
+      alt="Logo SoyHenry"
+    />
     <form action="">
       <label for="Nombre"></label>
       <input type="text" name="nombre" placeholder="Nombre" /><br />
@@ -16,7 +21,9 @@
       <label for="edad"></label>
       <input type="number" name="edad" placeholder="Edad" />
       <br />
-      <input type="date" />
+      <br />
+      <label for="Fn">Fecha de Nacimiento</label><br />
+      <input type="date" name="Fn" />
       <br />
       <button>Enviar</button>
     </form>
