@@ -27,10 +27,10 @@ header {
 }
 
 h1 {
-  margin-bottom: 20px; /* Espacio entre el título y la imagen */
+  margin-bottom: 20px;
 }
 
 img {
-  max-width: 100%; /* Para que la imagen sea responsiva */
+  max-width: 100%;
   height: auto;
 }
